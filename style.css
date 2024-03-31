@@ -1,5 +1,5 @@
 /*  import google fonts */
-/*  #364045 background */
+/*  #363c40 background */
 /*  #161a1c darker background */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
@@ -86,7 +86,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #364045; /* Navbar color */
+    background: #363c40; /* Navbar color */
 }
 .navbar .max-width{
     display: flex;
@@ -118,7 +118,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: #364045;
+    color: #363c40;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -160,7 +160,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: #000000 no-repeat center;
+    background: #161a1c no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -266,7 +266,7 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #364045;
+    background: #363c40;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -373,7 +373,7 @@ section .title::after{
     content: "what I do";
 }
 .projects .carousel .card{
-    background: #364045;
+    background: #363c40;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
