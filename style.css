@@ -115,7 +115,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: rgb(69, 141, 223);
+    color: #222;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -294,7 +294,7 @@ section .title::after{
 }
 /* skills section styling */
 .skills .title::after{
-    content: "what i know";
+    content: "what I know";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -367,7 +367,7 @@ section .title::after{
 }
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "what I do";
 }
 .teams .carousel .card{
     background: #222;
