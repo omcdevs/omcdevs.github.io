@@ -212,7 +212,7 @@ section .title::after{
     content: "who I am";
 }
 .about .about-content .left{
-    width: 100%;
+    width: 45%;
 }
 .about .about-content .left img{
     height: 400px;
