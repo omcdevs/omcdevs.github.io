@@ -1,4 +1,7 @@
 /*  import google fonts */
+/*  #364045 background */
+/*  #161a1c darker background */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 *{
     margin: 0;
@@ -59,7 +62,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
+    background: #161a1c;
     transform: translateX(-50%);
 }
 section .title::after{
@@ -83,7 +86,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #222; /* Navbar color */
+    background: #364045; /* Navbar color */
 }
 .navbar .max-width{
     display: flex;
@@ -115,7 +118,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: #222;
+    color: #364045;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -157,7 +160,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/space_background.jpg") no-repeat center;
+    background: #000000 no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -250,7 +253,7 @@ section .title::after{
 /* services section styling */
 .services, .projects{
     color:#fff;
-    background: #111;
+    background: #161a1c;
 }
 .services .title::before,
 .projects .title::before{
@@ -258,12 +261,12 @@ section .title::after{
 }
 .services .title::after,
 .projects .title::after{
-    background: #111;
+    background: #161a1c;
     content: "what I provide";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: #364045;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -370,7 +373,7 @@ section .title::after{
     content: "what I do";
 }
 .projects .carousel .card{
-    background: #222;
+    background: #364045;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -524,7 +527,7 @@ section .title::after{
 }
 /* footer section styling */
 footer{
-    background: #111;
+    background: #161a1c;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
@@ -562,7 +565,7 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111;
+        background: #161a1c;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
