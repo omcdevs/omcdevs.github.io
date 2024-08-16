@@ -1,2 +1,4 @@
-# owenomc.github.io
 Personal Website
+Made by: Owen Crandall
+
+Enjoy!
