@@ -1,2 +1,2 @@
-# omcdevs.github.io
+# owenomc.github.io
 Personal Website
